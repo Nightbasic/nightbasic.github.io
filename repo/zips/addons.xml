@@ -17,4 +17,37 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon></addons>
+</addon>
+<addon id="plugin.program.nightfallwizard" name="Nightfall Wizard" version="1.0.0" provider-name="unison/Night Basic">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1"/>
+		<import addon="script.module.requests" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">The Nightfall Wizard</summary>
+		<description lang="en_GB">Nightfall Build Wizard</description>
+		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
+		<language>en</language>
+		<platform>all</platform>
+		<license>GPL-2.0-or-later</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+		<news>1.0.0
+		First Release
+		</news>
+		<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+	</extension>
+</addon>
+</addons>
